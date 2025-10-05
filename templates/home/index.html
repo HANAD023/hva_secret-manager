@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Secret Manager{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welkom bij Secret Manager</h1>
+        <p class="hero-description">
+            Beheer je gevoelige informatie veilig en eenvoudig. Secret Manager helpt je bij het opslaan, 
+            organiseren en beveiligen van je wachtwoorden, API-sleutels en andere geheime gegevens.
+        </p>
+        <div class="hero-buttons">
+            <a href="{{ url_for('secrets.list') }}" class="btn btn-primary">Bekijk Mijn Secrets</a>
+            <a href="{{ url_for('secrets.add') }}" class="btn btn-secondary">Nieuwe Secret Toevoegen</a>
+        </div>
+    </div>
+    <div class="hero-image">
+        <div class="security-icon">🛡️</div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <h2>Waarom Secret Manager?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Veilige Opslag</h3>
+                <p>Je secrets worden veilig opgeslagen met optionele encryptie voor extra beveiliging.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔍</div>
+                <h3>Eenvoudig Zoeken</h3>
+                <p>Filter en zoek snel door je secrets om precies te vinden wat je nodig hebt.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>Responsive Design</h3>
+                <p>Toegankelijk op alle apparaten - desktop, tablet en mobiel.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Snel & Efficiënt</h3>
+                <p>Intuïtieve interface voor snelle toegang tot je belangrijke gegevens.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick Actions -->
+<section class="quick-actions">
+    <div class="container">
+        <h2>Snelle Acties</h2>
+        <div class="actions-grid">
+            <div class="action-card">
+                <h3>Nieuwe Secret</h3>
+                <p>Voeg een nieuwe secret toe aan je collectie</p>
+                <a href="{{ url_for('secrets.add') }}" class="btn btn-outline">Toevoegen</a>
+            </div>
+            <div class="action-card">
+                <h3>Alle Secrets</h3>
+                <p>Bekijk en beheer al je opgeslagen secrets</p>
+                <a href="{{ url_for('secrets.list') }}" class="btn btn-outline">Bekijken</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

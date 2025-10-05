@@ -1,0 +1,1306 @@
+Secrets selecteren
+User Story
+Als gebruiker wil ik mijn geheimen goed kunnen filteren op (minstens één) kenmerk(en), zodat ik niet overweldigd word door alle beschikbare geheimen.
+
+Beschrijving
+Op de secrets pagina waarop de alle secretes getoond worden moet een mogelijkheid gemaakt zijn om secrets te selecteren of te filteren.
+Het Selecteren gebeurt op basis van een nieuw filtervel.
+Er moet of een filter knop komen zodat er niet direct gefilterd wordt of er moet direct gefilterd worden als er gegevens in de een van de twee filter velden wordt ingetikt.
+Als er gefilterd wordt worden alleen de secrets getoond waar in de code of in de beschrijving de tekst voorkomt die in het filterveld staan. Een leeg filterveld, toont alle secrets.
+Pas de Wireframe aan. Indien pas ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> filteren   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS eventueel Javascript   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De secrets pagina bevat de volgende invoer onderdelen:
+
+
+        
+      
+ Een nieuwe filterveld   
+      Convert to child item
+     Delete 
+
+        
+      
+ Knop die de filteren mogelijk maakt of automatisch filteren in het filterveld   
+      Convert to child item
+     Delete 
+
+        
+      
+ Nette foutboodschap als het filter niets vind.   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De invoer op secrets pagina is klaar als:
+
+
+        
+      
+ De secrets pagina werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+ Navigatiebalk
+User Story
+Als gebruiker wil ik de mogelijkheid hebben om te navigeren via een duidelijke en goed zichtbare navigatiebalk, zodat ik gemakkelijk toegang heb tot andere pagina's van de website.
+
+Beschrijving
+Als er twee of meer HTML pagina's zijn, is een navigatiebalk nodig om van de ene naar de andere pagina te gaan.
+Dat zorgt dat de gebruiker niet steeds de URL moet aanpassen om naar een ander pagina te gaan.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ HTML   
+      Convert to child item
+     Delete 
+
+        
+      
+ CSS   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De Navigatiebalk heeft de volgend eigenschappen:
+
+
+        
+      
+ Staat bovenaan de pagina of helemaal links.   
+      Convert to child item
+     Delete 
+
+        
+      
+ Mimimaal 2 links of knoppen om naar een andere pagina te gaan   
+      Convert to child item
+     Delete 
+
+        
+      
+ Grotendeels hetzelfde op alle pagina's   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De navigatiebalk klaar als:
+
+
+        
+      
+ De navigatiebalk werkt in een browser   
+      Convert to child item
+     Delete 
+
+        
+      
+ De navigatiebalk op alle HTML pagina's voorkomt   
+      Convert to child item
+     Delete 
+
+        
+      
+ Aan alle eigenschappen is voldaan   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+
+Secrets scrollen
+User Story
+Als gebruiker wil ik door mijn geheimen heen kunnen scrollen en maximaal 10 geheimen per keer zien, zodat ik niet overweldigd word door alle beschikbare geheimen.
+
+Beschrijving
+In User Story Secrets Pagina worden geheimen als lijst getoond
+Zorg de de lijst maximaal 10 geheimen laat zien en biedt de gebruiker de mogelijkheid om naar de volgende 10 geheimen te scrollen en naar de vorige 10 geheimen.
+De gegevens komen uit de secrets CSV-file.
+Pas de Wireframe aan. Indien nodig, pas dan 1ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> lezen uit een CSV file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS eventueel Javascript   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De pagina met getoonde geheimen bevat de volgende onderdelen:
+
+
+        
+      
+ nummering, code en beschrijving velden. Eventuele overige velden zijn toegestaan.   
+      Convert to child item
+     Delete 
+
+        
+      
+ 10 regels gegevens die zijn opgeslagen in de CSV file worden getoond   
+      Convert to child item
+     Delete 
+
+        
+      
+ een knop om naar de volgende 10 regels te gaan (als die volgende regels er zijn)   
+      Convert to child item
+     Delete 
+
+        
+      
+ een knop om naar de vorige 10 regels te gaan (als die vorige regels er zijn)   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De pagina met getoonde geheimen is klaar als:
+
+
+        
+      
+ Deze pagina werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+Website documentatie
+User Story
+Als gebruiker wil ik heldere documentatie over de werking van de website, zodat ik weet wat ik ermee kan en hoe de website technisch in elkaar zit.
+
+Beschrijving
+Schrijf de technische documentatie in het Engels.
+Beschrijf de volgende onderdelen in de technische documentatie
+
+
+        
+      De relatie tussen webpagina's (HTML/CSS) en de Flask modules en beschrijf deze structuur.
+
+        
+      de werking van de website met Wireflow en een (proces) beschrijving van de Wireflow
+
+        
+      de werking van de webpagina's met Wireframes en een (functie)beschrijving van elke webpagina.
+
+        
+      de werking van de belangrijkste Flask modules
+
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ CSS   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+
+
+        
+      
+ De documentatie is up-to-date   
+      Convert to child item
+     Delete 
+
+        
+      
+ Er is minimaal één Wireflow   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke webpagina's heeft een Wireframe gedocumenteerd   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De documentatie is klaar als:
+
+
+        
+      
+ Elke webpagina's (HTML/CSS) is gedocumenteerd   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke Flask module is gedocumenteerd   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow(s) bevatten gezamenlijk alle webpagina's   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke webpagina's is als Wireframe gedocumenteerd   
+      Convert to child item
+     Delete 
+
+        
+      
+ De relatie tussen webpagina en Flask module is gedocumenteerd   
+      Convert to child item
+     Delete 
+
+        
+      
+ Bij gebruik van Jinja of javascript is dit bij de webpagina gedocumenteerd   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ Het document is gecontroleerd op spelling   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het document voldoet aan de regels van professionele documentatie   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het document is gelezen en controleert een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+ Landingspagina
+User Story
+Als gebruiker wil ik een overzichtelijke landingspagina zien van Secret Manager, zodat ik direct een helder beeld krijg van de functionaliteit en het doel van de ‘Secret Manager’.
+
+Beschrijving
+De HTML/CSS landingspagina is de eerste pagina die de gebruiker ziet.
+
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ HTML   
+      Convert to child item
+     Delete 
+
+        
+      
+ CSS   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De landingspagina bevat de volgende onderdelen:
+
+
+        
+      
+ Doel en beschrijving   
+      Convert to child item
+     Delete 
+
+        
+      
+ Achtergrond (niet wit)   
+      Convert to child item
+     Delete 
+
+        
+      
+ Toepasselijk plaatje   
+      Convert to child item
+     Delete 
+
+        
+      
+ Toepasselijk logo   
+      Convert to child item
+     Delete 
+
+        
+      
+ Header met tekst en footer met copyright   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De landingspagina is klaar als:
+
+
+        
+      
+ De pagina werkt in een browser   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen zijn aanwezig   
+      Convert to child item
+     Delete 
+
+        
+      
+ Er een Wireframe is van de login pagina   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+ Secrets wijzigen
+User Story
+Als gebruiker wil ik een geheim kunnen wijzigen en opnieuw opslaan, zodat ik altijd up-to-date versies van informatie heb.
+
+Beschrijving
+Op de secrets pagina(s) moet een mogelijkheid gemaakt zijn om secrets te wijzigen.
+Het wijzigen mag op een apart webpagina, in een pop-up of een nog ander manier. Als het maar voor de gebruiker logisch is.
+Ook bij het wijzigen geheim heeft minimaal de volgende verplichte gegevens.
+
+
+        
+      Een korte code, op basis waarvan een geheim gevonden kan worden.
+
+        
+      Een lange beschrijving van het geheim
+Meer gegevens zijn toegestaan, maar niet verplicht.
+
+Als er geen fouten zijn, worden de oude gegevens in de CSV-file vervangen door de nieuwe gegevens.
+De regel verwijderen en een nieuwe regel toevoegen is toegestaan.
+Pas de Wireframe aan. Indien pas ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> wijzigen in een CSV file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS eventueel Javascript   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De secrets pagina bevat de volgende invoer onderdelen:
+
+
+        
+      
+ Knop die de wijziging mogelijk maakt   
+      Convert to child item
+     Delete 
+
+        
+      
+ code en beschrijving velden zijn verplicht. Eventuele overige velden niet.   
+      Convert to child item
+     Delete 
+
+        
+      
+ Knop die de wijzigen vastgelegd   
+      Convert to child item
+     Delete 
+
+        
+      
+ Nette foutboodschappen   
+      Convert to child item
+     Delete 
+
+        
+      
+ De gegevens worden gecorrigeerd opgeslagen in een CSV file   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De invoer op secrets pagina is klaar als:
+
+
+        
+      
+ De secrets pagina werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+ Veilige Opslag
+User Story
+Als gebruiker wil ik dat mijn geheimen versluiteld worden opgeslagen.
+
+Beschrijving
+Om de secrets te veilig te houden moeten deze encrypted opgeslagen kunnen worden. Om deze vervolgens te kunnen lezen zullen ze decrypt moeten worden.
+Er zijn verschillende manieren te bedenken hoe dit voor de gebruiker geimplementeerd kan worden. Bedenk dat er effectief een wachtwoord op het csv bestand komt te staan dat ook in eerste instantie door de gebruiker bedacht en ingevoerd moet kunnen worden.
+Pas Wireframes, Wireflows en de Markdown documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+        
+      
+ Symmetrische Encryptie bestanden   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De volgende requirements zijn van toepassing:
+
+
+        
+      
+ User story is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ (vul deze zelf in naar afhankelijk van het eigen bedachte idee)   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De functie "Veilige Opslag" is klaar als:
+
+
+        
+      
+ Er een up to date Wireframe is van alle relevante pagina's   
+      Convert to child item
+     Delete 
+
+        
+      
+ Er een up to date Wireflow is van alle relevante pagina's   
+      Convert to child item
+     Delete 
+
+        
+      
+ Secrets kunnen in een encrypted bestand worden opgeslagen.   
+      Convert to child item
+     Delete 
+
+        
+      
+ Secrets moeten ook zonder encryptie opslagen kunnen worden.   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ User story beschrijving is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+Responsive website
+User Story
+Als eindgebruiker wil ik dat de website responsive is, zodat ik deze op meerdere devices kan gebruiken.
+
+Beschrijving
+Met CSS kunnen webpagina's responsive gemaakt worden. Een responsive webpagina past de inhoud aan, aan de lengte en breedte van het (deel van het) scherm dat gebruikt wordt voor de presentatie. Een Desktop scherm heeft een andere lengte en breedte dan een mobiel scherm. Dit kan betekenen dat bepaalde onbelangrijke informatie wegvalt.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ CSS   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML   
+      Convert to child item
+     Delete 
+
+
+Requirements
+
+
+        
+      
+ Elke webpagina bevat dezelfde CSS file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke webpagina is goed te gebruiken op een desktop   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke webpagina is goed te gebruiken op een mobiel   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De CSS file is klaar als:
+
+
+        
+      
+ Elke webpagina met deze CSS file werkt in een browser op een desktop   
+      Convert to child item
+     Delete 
+
+        
+      
+ Elke webpagina met deze CSS file werkt in een browser op een desktop   
+      Convert to child item
+     Delete 
+
+        
+      
+ Voor elke desktop webpagina is er een Wireframe (geen image)   
+      Convert to child item
+     Delete 
+
+        
+      
+ Voor elke mobiele webpagina is er een Wireframe (geen image)   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De CSS code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+Secrets vastleggen
+User Story
+Als gebruiker wil ik de mogelijkheid hebben om nieuwe geheimen toe te voegen aan mijn persoonlijke secrets pagina, zodat ik altijd een up-to-date bestand heb van mijn geheimen.
+
+Beschrijving
+Op de secrets pagina moet een mogelijkheid gemaakt zijn om secrets vast te leggen.
+Een geheim heeft minimaal de volgende verplichte gegevens.
+
+
+        
+      Een korte code, op basis waarvan een geheim gevonden kan worden.
+
+        
+      Een lange beschrijving van het geheim
+Meer gegevens zijn toegestaan, maar niet verplicht.
+
+Als er geen fouten zijn, worden de gegevens vastgelegd samen met de usernaam in een apart CSV-file. Dit is niet dezelfde als de CSV-file van de registratie pagina.
+De usernaam word opgehaald uit de sessie-cookie.
+vanuit de loginpagina is de secrets pagina bereikbaar.
+Zorg dat het duidelijk is voor de gebruiker dat vastleggen gelukt is.
+Pas de Wireframe aan. Indien pas ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> vastleggen in een CSV file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS eventueel Javascript   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De secrets pagina bevat de volgende invoer onderdelen:
+
+
+        
+      
+ code en beschrijving velden zijn verplicht. Eventuele overige velden niet.   
+      Convert to child item
+     Delete 
+
+        
+      
+ Knop die de invoer vastgelegd   
+      Convert to child item
+     Delete 
+
+        
+      
+ Nette foutboodschappen   
+      Convert to child item
+     Delete 
+
+        
+      
+ Relevante gegevens worden opgeslagen in een CSV file   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De invoer op secrets pagina is klaar als:
+
+
+        
+      
+ De secrets pagina werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+Secret verwijderen
+User Story
+Als gebruiker wil ik een geheim kunnen verwijderen, zodat ik geen onnodige informatie opsla.
+
+Beschrijving
+Op de pagina met de lijst secrets moet een mogelijkheid zijn om een secret te verwijderen.
+Alleen een getoonde eigen geheim, mag verwijderd worden.
+Als het geheim verwijderd is moet de lijst vernieuw worden en het verwijderde geheim niet meer laten zien.
+Het geheim moet dan ook verwijderd zijn uit de CSV file.
+Pas de Wireframe aan. Indien pas ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> verwijderen uit een CSV file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De secrets pagina bevat de volgende onderdelen:
+
+
+        
+      
+ Het is duidelijk welke geheim verwijder gaat worden   
+      Convert to child item
+     Delete 
+
+        
+      
+ Knop die de verwijdering vastgelegd   
+      Convert to child item
+     Delete 
+
+        
+      
+ Nette foutboodschappen als het verwijderen niet lukt   
+      Convert to child item
+     Delete 
+
+        
+      
+ Relevante gegevens worden verwijderd uit een CSV file   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De invoer op secrets pagina is klaar als:
+
+
+        
+      
+ De verwijdering van het secret werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle overige onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
+
+Secrets tonen
+User Story
+Als gebruiker wil ik op een pagina een overzicht kunnen zien van al mijn geheimen, zodat ik makkelijker mijn geheimen kan teruglezen.
+
+Beschrijving
+In User Story Secrets vastleggen worden geheimen vastgelegd.
+Op de secrets pagina of op een volgende pagina moet een mogelijkheid komen om de eigen secrets te tonen aan de gebruiker in een genummerde lijst met de code en het geheim (beschrijving).
+De gegevens komen uit de secrets CSV-file.
+Pas de Wireframe aan. Indien nodig, pas dan 1ook de Wireflow en de Technische documentatie van deze applicatie aan, zodat deze up-to-date is.
+
+Benodigde kennis & vaardigheden
+
+
+        
+      
+ Python --> lezen uit een CSV file   
+      Convert to child item
+     Delete 
+
+        
+      
+ Flask/Jinja   
+      Convert to child item
+     Delete 
+
+        
+      
+ HTML/CSS eventueel Javascript   
+      Convert to child item
+     Delete 
+
+        
+      
+ Wireframe, Wireflow   
+      Convert to child item
+     Delete 
+
+
+Requirements
+De pagina met getoonde geheimen bevat de volgende onderdelen:
+
+
+        
+      
+ nummering, code en beschrijving velden. Eventuele overige velden zijn toegestaan.   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle gegevens die zijn opgeslagen in de CSV file worden getoond   
+      Convert to child item
+     Delete 
+
+
+Acceptatie criteria
+De pagina met getoonde geheimen is klaar als:
+
+
+        
+      
+ Deze pagina werkt in de Flask Webserver   
+      Convert to child item
+     Delete 
+
+        
+      
+ Alle onderdelen werken   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireframe (van de secrets pagina) is up to date   
+      Convert to child item
+     Delete 
+
+        
+      
+ De Wireflow is up to date   
+      Convert to child item
+     Delete 
+
+
+Definitions of Done
+
+
+        
+      
+ De code is opgesteld volgens de HBO-ICT code conventions   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code is functioneel getest op fouten   
+      Convert to child item
+     Delete 
+
+        
+      
+ Het werk is getest door een peer (mede student)   
+      Convert to child item
+     Delete 
+
+        
+      
+ De code werkt zonder fouten bij normaal gebruik
+
